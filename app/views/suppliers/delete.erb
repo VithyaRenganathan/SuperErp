@@ -1,0 +1,7 @@
+<form id="delete_party" action="/suppliers/<%=@supplier.id%>/delete" method="post">
+  <input type="hidden" name="_method" value="DELETE" />
+  <p>Are you sure to remove the supplier | "<%=@supplier.supplier_name%>" |</p>
+  <br>
+  <input type="submit" value="Confirm Delete" />
+  <input type="button" value="Cancel" />
+</form>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ERB-Suppliers</title>
+  <!--stylesheet_link_tag 'application.css' %> -->
+  <link href="/Development/RubyOnRails/Learning/SuperErp/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<h3>Available suppliers: <%= @suppliers.count %></h3><a href="/suppliers/new">Add Supplier</a><br>
+<br>
+<table class="showTable">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>City</th>
+    <th>Added On</th>
+  </tr>
+  <% @suppliers.each do |supplier| %>
+    <tr>
+      <td><%= supplier.supplier_name %></td>
+      <td><%= supplier.supplier_address %></td>
+      <td><%= supplier.supplier_city %></td>
+      <td><%= supplier.created_date %></td>
+      <td>&nbsp;&nbsp;</td>
+      <td><a href="/suppliers/<%=supplier.id%>/edit">Modify</a></td>
+      <td><a href="/suppliers/<%=supplier.id%>/delete">Delete</a></td>
+    </tr>
+  <% end %>
+</table>
+
+</html>
+

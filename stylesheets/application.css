@@ -1,0 +1,209 @@
+body {
+  margin: 2px;
+  background-color: #ffffee;
+}
+
+a {
+  color: #000099; 
+  font-size: 10pt;
+}
+
+.showTable {
+  border-color: #000033;
+  border-width: 0px;
+  border-style: solid;
+  border-collapse: collapse;
+  border-spacing: 1;
+  padding: 1px;
+  cell-spacing: 0;
+  background-repeat: no-repeat;
+}
+
+th {
+  color: black;
+  font-size: 8pt;
+  border: 1px solid; 
+  padding: 2; 
+  cell-spacing: 2;
+  background-color: lightgrey;
+}
+
+td {
+  color: black;
+  font-size: 8pt;
+  border: 1px solid; 
+  padding: 1; 
+  padding-left: .25em;
+  padding-right: .25em;
+  cell-spacing: 0; 
+  max-height: 10;
+}
+
+select {
+  color: black;
+  font-size: 8pt;
+  background-color: white;
+}
+
+input {
+  color: black;
+  font-size: 8pt;
+}
+
+#top {
+  border-bottom: 1px solid black;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+
+#logo {
+  border-right: 1px solid black;
+  font-size: 10pt;
+}
+
+#options {
+}
+
+#options form {
+  display: inline;
+}
+
+#options div {
+  display: inline;
+  margin-right: 30px;
+}
+
+.headerTable td {
+  border: none;
+}
+
+.headerTable {
+  padding: 0;
+  margin: 0;
+  width: 900px;
+}
+
+#viewport {
+}
+
+#content {
+  padding-right: .5em;
+  margin-right: .5em;
+}
+
+.hidden {
+  display: none;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 3000;
+  border: 1px solid #111;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+#tooltip h3, #tooltip div {
+  margin: 0;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+/*  line-height: 1.8; */
+}
+
+fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+fieldset li input {
+  width: 200px;
+}
+
+fieldset li textarea {
+  width: 200px;
+  height: 100px;
+}
+
+fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+
+fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+
+fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+label {
+  width: 120px;
+}
+
+ol.wideLabels label {
+  width: 150px;
+}
+
+fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+div.fieldWithErrors {
+  display: inline;
+}
+
+div.fieldWithErrors label {
+  color: red;
+}
+
+div.fieldWithErrors input {
+  border: 1px solid red;
+}
+
+#userInfo {
+  float: right;
+  clear: right;
+  font-size: 10pt;
+}
+
+#userInfo label {
+  width: auto;
+}
+
+#userInfo input {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  font-size: 8pt;
+}
+
+.pagerDisabled {
+  text-decoration: none;
+  cursor: default;
+  color: gray;
+}
